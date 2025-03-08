@@ -1,269 +1,332 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArtDentLab</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ArtDentLab</title>
 
-    <link rel="icon" type="image/x-icon" href="./dmg.svg">
-    <link href="https://fonts.googleapis.com/css?family=Dynalight:regular" rel="stylesheet" />
+		<link rel="icon" type="image/x-icon" href="./dmg.svg" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Dynalight:regular"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="body">
+		<div class="preloader">
+			<div class="center">
+				<span class="center-span"></span>
+				<span class="center-span"></span>
+				<span class="center-span"></span>
+				<span class="center-span"></span>
+			</div>
+		</div>
+		<header class="header" id="header">
+			<div class="container header__container">
+				<a href="index.html" class="header__logo">
+					<img src="image/logo.svg" alt="logo" />
+				</a>
+				<div class="header__navs" id="nav-btn">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="index.html" class="nav__link" data-barba="link"
+									>Главная</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="about.html" class="nav__link" data-barba="link"
+									>О нас</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="services.html" class="nav__link" data-barba="link"
+									>Услуги</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="price.html" class="nav__link" data-barba="link"
+									>Прайс
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="contacts.html" class="nav__link" data-barba="link"
+									>Контакты</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<a
+						href="tel:996709122455"
+						class="header__number"
+						aria-label="позвонить на номер телефона"
+						>Связаться с нами
+					</a>
+				</div>
+				<button class="burger btn-reset" id="burger" aria-label="Открыть меню">
+					<span class="burger__span"></span>
+					<span class="burger__span"></span>
+					<span class="burger__span"></span>
+				</button>
+			</div>
+		</header>
+		<main id="barba-wrapper" class="main" data-barba="wrapper">
+			<div
+				class="main__inner"
+				data-barba="container"
+				data-barba-namespace="about"
+			>
+				<div class="page-content">
+					<section class="about">
+						<div class="container about__container">
+							<div class="about__content">
+								<h1
+									class="about__content-title section-title"
+									data-barba="about-title"
+								>
+									О нас
+								</h1>
+								<div class="about__box">
+									<h2
+										class="about__box-title section-secondtitle"
+										data-barba="about-box-title"
+									>
+										На страже вашей репутации у пациентов
+									</h2>
+									<p class="about__box-descr" data-barba="about-box-descr">
+										Идеальный результат у пациентов стоматолога зависит от
+										мастерства зубного техника.
+									</p>
+									<p class="about__box-descr" data-barba="about-box-descr">
+										Зуботехническая лаборатория «ArtDentLab» с 2009 года
+										изготавливает изделия любой сложности, заботится о пациентах
+										и репутации врачей.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="about-hero">
+						<div class="about-hero__container container">
+							<h2
+								class="about-hero__title section-secondtitle"
+								data-barba="about-hero-title"
+							>
+								Зуботехническая лаборатория «ArtDentLab»: наш перфекционизм —
+								для защиты ваших интересов
+							</h2>
+							<ul class="about-hero__list">
+								<li class="about-hero__list-item">
+									<div class="about-hero__item-left bg-1 decor"></div>
+									<div class="about-hero__item-right flex-text">
+										<p class="about-hero-descr">
+											Лаборатория ArtDentLab успешно работает на рынке зубного
+											протезирования с 2011 года. За годы работы мы наладили
+											прочные партнерские отношения со многими
+											стоматологическими клиниками. Мы с удовольствием
+											предлагаем высококачественные услуги по изготовлению
+											протезов как постоянным клиентам, так и новым партнерам,
+											способствуя развитию их клиник и укреплению положительного
+											имиджа.
+										</p>
+									</div>
+								</li>
+								<li class="about-hero__list-item middle-about">
+									<div class="about-hero__item-left flex-text">
+										<p class="about-hero-descr">
+											Мы прекрасно знаем о том, что для качественного
+											изготовления зубных протезов требуются подходящие условия.
+											Именно поэтому наша лаборатория расположена в современном
+											и просторном помещении, которое оснащено модернизированным
+											медицинским оборудованием, признанным одним из лучших в
+											своей области. В качестве материалов для изготовления
+											зубных протезов используются зарубежные протезы высокого
+											качества.
+										</p>
+									</div>
+									<div class="about-hero__item-right bg-2 decor"></div>
+								</li>
+								<li class="about-hero__list-item">
+									<div class="about-hero__item-left bg-3 decor"></div>
+									<div class="about-hero__item-right flex-text">
+										<p class="about-hero-descr">
+											Наши клиенты должны знать о том, что мы окажем помощь в
+											любой ситуации, и в краткий срок изготовим даже самый
+											сложный зубной протез. Для нас все задачи выполнимы. Это
+											возможно благодаря профессионализму, многолетнему опыту
+											работы наших сотрудников и использованию современного
+											оборудования. Мы всегда рады новым клиентам!
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="about-feat">
+						<div class="about-feat__container container">
+							<ul class="about-feat__list">
+								<li class="about-feat__list-item"></li>
+								<li class="about-feat__list-item"></li>
+								<li class="about-feat__list-item"></li>
+							</ul>
+						</div>
+					</section>
+					<section class="certificates">
+						<div class="certificates__container container">
+							<h2 class="certificates__title section-secondtitle">
+								Достижения и квалификация наших зубных техников
+							</h2>
+							<div class="equipment__swiper certificates__swiper">
+								<div class="swiper certifik__sw">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide portfolio__c cart">
+											<div class="portfolio__card cart-con card-1">
+												<div class="pic-1"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-2">
+												<div class="pic-2"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-3">
+												<div class="pic-3"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-4">
+												<div class="pic-4"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-5">
+												<div class="pic-5"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-6">
+												<div class="pic-6"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-7">
+												<div class="pic-7"></div>
+											</div>
+										</div>
+										<div class="swiper-slide portfolio__c">
+											<div class="portfolio__card card-8">
+												<div class="pic-8"></div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-scrollbar"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<div class="footer__top">
+					<nav class="footer__nav">
+						<ul class="footer__nav-list">
+							<li class="footer__nav-item">
+								<a href="index.html" class="footer__nav-link" data-barba="link"
+									>Главная</a
+								>
+							</li>
+							<li class="footer__nav-item">
+								<a href="about.html" class="footer__nav-link" data-barba="link"
+									>О нас</a
+								>
+							</li>
+							<li class="footer__nav-item">
+								<a
+									href="services.html"
+									class="footer__nav-link"
+									data-barba="link"
+									>Услуги</a
+								>
+							</li>
+							<li class="footer__nav-item">
+								<a href="price.html" class="footer__nav-link" data-barba="link"
+									>Прайс
+								</a>
+							</li>
+							<li class="footer__nav-item">
+								<a
+									href="contacts.html"
+									class="footer__nav-link"
+									data-barba="link"
+									>Контакты</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__bottom">
+					<span class="footer__bottom-info">
+						© 2025 artdentlab.kg - Зуботехническая лаборатория в Бишкеке.
+					</span>
+					<span class="footer__bottom-info">
+						Сайт находится в стадии разработки и тестирования. Вся
+						представленная на сайте информация носит справочный характер и не
+						является публичной офертой!
+					</span>
+					<span class="footer__bottom-dev">
+						Разработка сайта :
+						<a
+							href="https://www.instagram.com/raimkulov_11?igsh=cDA4NGhud3ZwZmZ6"
+							class="footer__dev-link"
+							>Raimkulov.E</a
+						>
+					</span>
+				</div>
+				<div class="footer__middle">
+					<ul class="footer__middle-list">
+						<li class="footer__middle-item">
+							<a
+								href="https://wa.me/996709122455"
+								class="footer__middle-link"
+								aria-label="написать на whatsapp"
+							>
+								<img src="image/icon/whatsapp.png" alt="whatsapp" />
+							</a>
+						</li>
+						<li class="footer__middle-item">
+							<a
+								href="https://wa.me/996709122455"
+								class="footer__middle-link"
+								aria-label="телеграм"
+							>
+								<img src="image/icon/telegram.png" alt="telegram" />
+							</a>
+						</li>
+						<li class="footer__middle-item">
+							<a
+								href="https://www.instagram.com/artdentlab.kg/"
+								class="footer__middle-link"
+								aria-label="инстаграм аккаунт"
+							>
+								<img src="image/icon/instagram.png" alt="instagram" />
+							</a>
+						</li>
+						<li class="footer__middle-item">
+							<a
+								href="tel:996709122455"
+								aria-label="позвонить на номер телефона"
+								class="footer__middle-link"
+							>
+								<img src="image/icon/phone2.png" alt="phone number" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 
-    <script type="module" crossorigin src="./assets/index-CWr9TUW_.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-PnqhJvdg.css">
-</head>
-<body>
-    <header class="header" id="header">
-        <div class="container header__container">
-            <a href="#" class="header__logo">
-                <img src="image/logo.svg" alt="logo">
-            </a>
-            <div class="header__navs" id="nav-btn">
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="index.html" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="about.html" class="nav__link">О нас</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="services.html" class="nav__link">Услуги</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="price.html" class="nav__link">Прайс
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="contacts.html" class="nav__link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="tel:996709122455" class="header__number" aria-label="позвонить на номер телефона">Связаться с
-                    нами </a>
-            </div>
-            <button class="burger btn-reset" id="burger" aria-label="Открыть меню">
-                <span class="burger__span"></span>
-                <span class="burger__span"></span>
-                <span class="burger__span"></span>
-            </button>
-        </div>
-    </header>
-    <div data-barba="wrapper">
-        <main class="main" data-barba="container" data-barba-namespace="home">
-            <section class="about">
-                <div class="container about__container">
-                    <div class="about__content">
-                        <h1 class="about__content-title section-title">
-                            О нас
-                        </h1>
-                        <div class="about__box">
-                            <h2 class="about__box-title section-secondtitle">
-                                На страже вашей репутации у пациентов
-                            </h2>
-                            <p class="about__box-descr">
-                                Идеальный результат у пациентов стоматолога зависит от мастерства зубного техника.
-                            </p>
-                            <p class="about__box-descr">
-                                Зуботехническая лаборатория «ArtDentLab» с 2009 года изготавливает изделия любой
-                                сложности,
-                                заботится о пациентах и репутации врачей.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="about-hero">
-                <div class="about-hero__container container">
-                    <h2 class="about-hero__title section-secondtitle">
-                        Зуботехническая лаборатория «ArtDentLab»: наш перфекционизм — для защиты ваших интересов
-                    </h2>
-                    <ul class="about-hero__list">
-                        <li class="about-hero__list-item">
-                            <div class="about-hero__item-left bg-1 decor"> </div>
-                            <div class="about-hero__item-right flex-text">
-                                <p class="about-hero-descr">
-                                    Лаборатория ArtDentLab успешно работает на рынке зубного протезирования с 2011 года.
-                                    За
-                                    годы работы мы наладили прочные партнерские отношения со многими стоматологическими
-                                    клиниками. Мы с удовольствием предлагаем высококачественные услуги по изготовлению
-                                    протезов как постоянным клиентам, так и новым партнерам, способствуя развитию их
-                                    клиник
-                                    и укреплению положительного имиджа.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="about-hero__list-item middle-about">
-                            <div class="about-hero__item-left flex-text">
-                                <p class="about-hero-descr">
-                                    Мы прекрасно знаем о том, что для качественного изготовления зубных протезов
-                                    требуются
-                                    подходящие условия. Именно поэтому наша лаборатория расположена в современном и
-                                    просторном помещении, которое оснащено модернизированным медицинским оборудованием,
-                                    признанным одним из лучших в своей области. В качестве материалов для изготовления
-                                    зубных протезов используются зарубежные протезы высокого качества.
-                                </p>
-                            </div>
-                            <div class="about-hero__item-right bg-2 decor"></div>
-                        </li>
-                        <li class="about-hero__list-item">
-                            <div class="about-hero__item-left bg-3 decor"></div>
-                            <div class="about-hero__item-right flex-text">
-                                <p class="about-hero-descr">
-                                    Наши клиенты должны знать о том, что мы окажем помощь в любой ситуации, и в краткий
-                                    срок
-                                    изготовим даже самый сложный зубной протез. Для нас все задачи выполнимы. Это
-                                    возможно
-                                    благодаря профессионализму, многолетнему опыту работы наших сотрудников и
-                                    использованию
-                                    современного оборудования. Мы всегда рады новым клиентам!
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="about-feat">
-                <div class="about-feat__container container">
-                    <ul class="about-feat__list">
-                        <li class="about-feat__list-item">
-
-                        </li>
-                        <li class="about-feat__list-item">
-
-                        </li>
-                        <li class="about-feat__list-item">
-
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="certificates">
-                <div class="certificates__container container">
-                    <h2 class="certificates__title section-secondtitle">
-                        Достижения и квалификация наших зубных техников
-                    </h2>
-                    <div class="equipment__swiper certificates__swiper">
-                        <div class="swiper certifik__sw">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide portfolio__c cart">
-                                    <div class="portfolio__card cart-con card-1">
-                                        <div class="pic-1"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-2">
-                                        <div class="pic-2"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-3">
-                                        <div class="pic-3"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-4">
-                                        <div class="pic-4"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-5">
-                                        <div class="pic-5"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-6">
-                                        <div class="pic-6"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-7">
-                                        <div class="pic-7"></div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide portfolio__c">
-                                    <div class="portfolio__card card-8">
-                                        <div class="pic-8"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-scrollbar"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__top">
-                <nav class="footer__nav">
-                    <ul class="footer__nav-list">
-                        <li class="footer__nav-item">
-                            <a href="index.html" class="footer__nav-link">Главная</a>
-                        </li>
-                        <li class="footer__nav-item">
-                            <a href="about.html" class="footer__nav-link">О нас</a>
-                        </li>
-                        <li class="footer__nav-item">
-                            <a href="services.html" class="footer__nav-link">Услуги</a>
-                        </li>
-                        <li class="footer__nav-item">
-                            <a href="price.html" class="footer__nav-link">Прайс
-                            </a>
-                        </li>
-                        <li class="footer__nav-item">
-                            <a href="contacts.html" class="footer__nav-link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer__bottom">
-                <span class="footer__bottom-info">
-                    © 2025 artdentlab.kg - Зуботехническая лаборатория в Бишкеке.
-                </span>
-                <span class="footer__bottom-info">
-                    Сайт находится в стадии разработки и тестирования. Вся представленная на сайте информация носит
-                    справочный
-                    характер и не является публичной офертой!
-                </span>
-                <span class="footer__bottom-dev">
-                    Разработка сайта : <a href="https://www.instagram.com/raimkulov_11?igsh=cDA4NGhud3ZwZmZ6"
-                        class="footer__dev-link">Raimkulov.E</a>
-                </span>
-            </div>
-            <div class="footer__middle">
-                <ul class="footer__middle-list">
-                    <li class="footer__middle-item">
-                        <a href="https://wa.me/996709122455" class=" footer__middle-link"
-                            aria-label="написать на whatsapp">
-                            <img src="image/icon/whatsapp.png" alt="whatsapp">
-                        </a>
-                    </li>
-                    <li class="footer__middle-item">
-                        <a href="#" class="footer__middle-link" aria-label="телеграм">
-                            <img src="image/icon/telegram.png" alt="telegram">
-                        </a>
-                    </li>
-                    <li class="footer__middle-item">
-                        <a href="https://www.instagram.com/artdentlab.kg/" class="footer__middle-link "
-                            aria-label="инстаграм аккаунт">
-                            <img src="image/icon/instagram.png" alt="instagram">
-                        </a>
-                    </li>
-                    <li class="footer__middle-item">
-                        <a href="tel:996709122455" aria-label="позвонить на номер телефона" class="footer__middle-link">
-                            <img src="image/icon/phone2.png" alt="phone number">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <div class="preloader">
-        <span class="loader">
-            <span class="loader-inner"></span>
-        </span>
-    </div>
-    <script type="module" src="./src/assets/js/main.js" defer></script>
-</body>
+		<script type="module" src="./src/assets/js/main.js" defer></script>
+	</body>
 </html>
